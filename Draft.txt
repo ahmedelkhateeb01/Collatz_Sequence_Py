@@ -1,0 +1,1666 @@
+#This our first program in python in the Mu editor.
+"""This is a
+Multi-line comment what
+years this is a Multi-Line comment."""
+ahmed = 20
+abdelrahman = 68
+print('Hello World')
+#printing a singl number.
+print(10)
+print('Is this your first program? ', end="")
+#!isThisYourFirstProgram = input()
+#!print('The student said: ' + isThisYourFirstProgram)
+#print your first program.
+print('Hello World')#*Printing our first program.
+#*Asking the user about his name.
+print('What is your name?')
+#Asking the user to input his son's name    
+userSonName = input('What the name of your son?  ')
+print('The name of my son is \'' + userSonName + '\'' )
+theLengthOfUserName = len(userSonName)
+print('The user\'s son name length of character is ' + str(len(userSonName)) + '.')
+print('Hello world' + ' Ahmed Elkhateeb')
+print('This the second program to ' + 'Ahmed Elkhateeb')
+###**=======================================**###
+becon = 20
+becon = becon + 1
+print(str(becon))
+age = 29
+print(age)
+print('My is ' + str(age))
+print(float(age))
+myName = input('What is your name?__>>>>__| ')
+lengthOfMyName = len(myName)
+print('My name is ' + myName + ', ' + str(lengthOfMyName) + ' Character')
+=========================================================
+matchPassword = input('Enter the Password:  ')
+"""The following condition called a block of code."""
+if matchPassword == 'Egypt_2030':
+    print('completed, The password is Matched.')
+else:
+    print("The Password doesn't match.")
+=========================================================
+###
+myFriendSalary = input('What is your salary?  ')
+myFriendSalary = int(myFriendSalary)
+if myFriendSalary == 4000:
+    print('The two salaries equals each other.')
+elif myFriendSalary > 4000:
+    print('Your friend\'s salary is Greater than your salary with ' + str(myFriendSalary - 4000) + ' Euro$')
+elif myFriendSalary < 0:
+    print('Please Enter only negative number.')
+elif myFriendSalary < 4000:
+    print('Your Salary is greater than your friend\'s Salary')
+else:
+    print('Please Enter only negative number.')
+#*Another program asks the user to insert his friend name that the he was is be st fiend in the primary school.
+=========================================================
+"""Asking the user to input the matching password"""
+#An example about the flow control.
+
+yourFriendName = input('What your Most beloved primary school friend?  ')
+#their best friend was called "Modathir"
+if yourFriendName == "Moddathir":
+    print('YUP, You are right your best friend in the primary school was called Moddathir')
+else:
+    print('Nup, The name You have Entered is not your best friend\'s name')
+=========================================================
+x = 10
+if x > 5 :
+    print('X is Greater than five')
+=========================================================
+x = 3
+if x > 5:
+    print("X is greater than 5")
+else:
+    print("X is less than 5")
+x = 2
+if x == 2:
+    print("Hello World.")
+=========================================================
+# ahmed elkhateeb
+# ahmed
+""""What can I need to do for you my dear my name is ahmed elkhateeb"""
+# ahmed Elkhateeb
+# Mohamed Hamed
+# this my name
+# What can I need to do for you my dear
+# Another Examples of the Flow control the if statement.
+# An integer variable
+mySalary = input("What is your salary?: ")
+if int(mySalary) <= 0:
+    print("Out of range!")
+elif int(mySalary) <= 1500:
+    print(
+        "Your Salary indicates that your are at the junior level")
+elif int(mySalary) <= 3000:
+    print("Your Salary indicates that you are at the Pre-Junior level")
+elif int(mySalary) <= 5000:
+    print("You salary indicates that your are at the mid senior level.")
+elif int(mySalary) <= 10000:
+    print("Your salary indicates that your are at the senior level.")
+elif int(mySalary) > 10000:
+    print("Your are at a managerial level.")
+else:
+    print("Our of range!")
+# The end of this if function.
+=========================================================
+numOfReplication = 0
+while numOfReplication < 5:
+    print("(" + str(numOfReplication + 1) + ") - " + "'Hello World'")
+    numOfReplication = numOfReplication + 1
+# Another while while loop to print the name 'Ahmed Elkhateeb'.
+print()
+print('=====================================')
+print()
+theDeveloperName = 'Ahmed Elkhateeb'
+x = 0
+# X is the first iteration.
+while x < 7:
+    print("I'm Ahmed Elkhateeb, Senior Data Scientist.")
+    x = x + 1
+print()
+print('=====================================')
+print()
+# Another While loop examples.
+# Example NO2.
+x1 = 0
+while x1 <= 3:
+    print("(" + str(x1 + 1) + ") - " + "Example.")
+    x1 = x1 + 1
+# Create string concatenation.
+print()
+print('=====================================')
+print()
+# Another example of while loop.
+yourName = ''
+while yourName != 'Your Name':
+    print('Wrong Name!')
+    yourName = input("Please enter your name!: ")
+    print()
+print("\n" + "***Thanks For Sharing***")
+print()
+print('=====================================')
+print()
+while True:
+    print("Enter your name: ")
+    name = input()
+    if name == "Your Name":
+        break
+print("***Thanks for Sharing*****")
+=========================================================
+# This a python Code Training of "While LOOP".
+# This Block of code print the "Hello world statement" for 5 times.
+print()
+print('=====================================')
+print()
+# An Example of continue statement.
+x2 = 0
+while x2 < 7:
+    if x2 == 3:
+        x2 = x2 + 1
+        print("________________\n")
+        continue
+        # If we invoke the break statement that will cause a loop termination.
+    print("******(" + str(x2) + ")*****")
+    x2 = x2 + 1
+print()
+print('=====================================')
+print()
+=========================================================
+# Correct password program.
+fullPassword = "Ahmed1990"
+userFullPassword = input("Enter your full password:  ")
+while userFullPassword != fullPassword:
+    userFullPassword = input("Please!, Enter your full password:  ")
+    if userFullPassword == fullPassword:
+        print("Welcome!, Your entered a correct password.")
+=========================================================
+# A while loop to count from 1 to 10
+firstIteration = 0
+while firstIteration < 10:
+    print("Number (" + str(firstIteration + 1) + ").")
+    firstIteration = firstIteration + 1
+# This is the end of the program.
+=========================================================
+# example of a while loop asks from the user to enter only positive numbers.
+theNumber = input('Enter a positive number:  ')
+while int(theNumber) <= 0:
+    print("Please enter only a positive Numbers.")
+    theNumber = input("Enter only positive numbers:  ")
+print("Thanks!, You have entered a positive number.")
+=========================================================
+# An example of password checker.
+mainPassword = "Ahmed1995"
+userPasswordChecker = input("Please, Enter the correct Password:  ")
+while mainPassword != userPasswordChecker:
+    print("\nWrong Password!")
+    userPasswordChecker = input("Please Enter the correct Password: ")
+print("============================================")
+print("\nThanks!, Your have entered a correct password.")
+=========================================================
+# ahmed elkhateeb this my name
+ahmedElkhateeb = "Hamed"
+print(ahmedElkhateeb)
+"""Ahmed elkhateeb this my name whatcan I need to do for
+you my dear
+what can I need to do for you my dear this my name
+and this is me and this my way and my current Path"""
+myName = "Ahmed Abdelrahman Ahmed Elkhateeb"
+print("myFullName is " + myName)
+myCollage = "Stanford"
+print("myCollage is " + myCollage)
+myDegree = "Bachlor degree in CS it's my first certification'ahmed "
+print("myDegrees is " + myDegree)
+mySalary = 2000
+myPreviousSalary = 1750
+print("My Salary is " + str(mySalary))
+print("My previous salary" + str(myPreviousSalary))
+"""Myfirst python Program"""
+print("My first program is: 'Hello World'")
+print("Hello World")
+# creating another prompt.
+print(
+    "1- Hello my Brother, ", end=""
+)  # creating another augument to elminate to enter new line after the comand
+# Creating a prompt
+# myName = input('Enter your name: ')
+# Creating a prompt to print the user's inserted name.
+# print('My name is: ' + myName + '.')
+# Printing the length of myName
+# print('The lenghth of your name is: ' + str(len(myName)) + ' ' + 'Charater.')
+# creating a prompt to Enter The user's age.
+# Define a variable to insert the users age.
+# Ahmed
+myAge = input("What's your age?: ")
+print("Your age is: " + str(myAge))
+=========================================================
+for i in range(5):
+    print("MY Name")
+=========================================================
+# calculating the sum of the numbers from 0 to 100.
+totalSum = 0
+for num in range(100):
+    totalSum = totalSum + num
+print("Total calculation = " + str(totalSum))
+=========================================================
+# Another example of Calculating the even numbers between
+for even in range(200):
+    if even % 2 == 1:
+        continue
+    else:
+        print("(" + str(even + 2) + ") - " + "helloworld")
+=========================================================
+# Write a program to count the numbers from 0 to 100
+totalSum = 0
+for num in range(101):
+    print(num)
+    totalSum = totalSum + num
+print("Total Sum = " + str(totalSum))
+=========================================================
+# An example of printing "Hello World" five times using while loop
+"""First Iteration"""
+i = 0
+while i < 5:
+    print("(" + str(i + 1) + ") - " + "Hello World")
+    i = i + 1
+"""Printing 'Hello World' Using for loop."""
+print()
+print("============================================")
+print()
+for i1 in range(5):
+    print("(" + str(i1 + 1) + ") - " + "Hello World")
+=========================================================
+# Python Examples of "For LOOP".
+# I need a program to print years between 2011 up to 2021
+for i in range(2011, 2022):
+    print("- (" + str(i) + ") -")
+print("\n============================================\n")
+# *An example of for loop with first, last and step iteration
+for i1 in range(2000, 2025, 2):
+    print("- (" + str(i1) + ") -")
+print("\n============================================\n")
+# *Another example of for loop using the many arguments in the range fun
+for i2 in range(1900, 1947, 3):
+    print("- (" + str(i2) + ") -")
+print("\n============================================\n")
+# Using a negative beginning to count down.
+for i3 in range(-10, 11, 2):
+    print("- (" + str(i3) + ") -")
+=========================================================
+# From a set of numbers we need to choose a number from that set.
+for i in range(7):
+    print("(" + str(i + 1) + ") ", end="")
+    print(random.randint(1, 10))
+print("\n============================================\n")
+# print(help(random))
+# Generation random number using python.
+for i1 in range(10):
+    print(" (" + str(i1 + 1) + ")  ", end="")
+    print(random.randint(20, 30))
+print("\n============================================\n")
+"""Another example of the random number using the random module from the python standard library"""
+for i2 in range(20):
+    print("(" + str(i2 + 1) + ") - ", end="")
+    print(random.randint(100, 200))
+=========================================================
+print("\n============================================\n")
+# Examples of the import modules.
+for i in range(10):
+    print("(" + str(i + 1) + ")  " + str(random.randrange(100, 1000, 100)))
+print("\n============================================\n")
+=========================================================
+import random
+import sys
+import os
+import math
+# An example of random module.
+for i1 in range(99, 150):
+    print("(" + str(i1 + 1) + ")  " + str(random.randint(0, 10)))
+print(math.e)
+print(sys.copyright)
+print(os.abort())
+=========================================================
+import sys
+# ToDo: Importing Modules.
+for i in range(5):
+    if i == 4:
+        sys.exit()
+    print("( " + str(i + 1) + " )")
+print("Hello World1")
+print("Hello World2")
+print("Hello World3")
+print("Hello World4")
+print("Hello World5")
+=========================================================
+# This is a guess the number game.
+import random
+secretNumber = random.randint(1, 20)
+print('I am thinking of a number between 1 and 20.')
+# Ask the player to guess 6 times.
+for guessesTaken in range(1, 7):
+    print('Take a guess.')
+    guess = int(input())
+    if guess < secretNumber:
+        print('Your guess is too low.')
+    elif guess > secretNumber:
+        print('Your guess is too high.')
+    else:
+        break  # This condition is the correct guess!
+    if guess == secretNumber:
+        print('Good job! You guessed my number in ' + str(guessesTaken) + ' guesses!') 
+    else:
+        print('Nope. The number I was thinking of was ' + str(secretNumber))
+=========================================================
+# *Python examples.
+# a Guessing game to guess the correct number.
+guessingNumber = 25
+userGuessingNumber = 0
+numbersOfTrials = 0
+while guessingNumber != userGuessingNumber:
+    print("Enter the guessing Number:   ", end="")
+    userGuessingNumber = int(input())
+    numbersOfTrials = numbersOfTrials + 1
+    if userGuessingNumber > 30:
+        print("Too hight!, Please enter number between 0 and 30\n")
+    elif guessingNumber == userGuessingNumber:
+        print("\nGood job!, You Selected the right number.\n")
+    elif userGuessingNumber <= 10:
+        print("Too low number!, Please selected number between 0 and 30\n")
+    elif (userGuessingNumber < 20) or (userGuessingNumber) <= 30:
+        print("Near some How!, Raise a little\n.")
+print("Number of Trials = " + str(numbersOfTrials) + "\n" + str(numbersOfTrials) + " wrong, And the last trial is right")
+
+print("\n============================================\n")
+=========================================================
+# Short program Rock, Paper, Scissor.
+# we 've two programs
+import random
+import sys
+while False:
+    if 5 == 5:
+        print("Yes")
+    print("Hello World")
+print("Rock, Paper, Scissor")
+userWin = 0
+userLoss = 0
+userTie = 0
+# while True:
+
+
+print("\n============================================\n")
+=========================================================
+myFirstName = "Ahmed"
+myMiddleName = "Abdelrahman"
+myLastName = "Elkhateeb"
+print(f"{myFirstName}(FirstName) {myMiddleName}(MiddleName) {myLastName}(Last Name).")
+mySalary = 5000
+myWifeSalary = 3500
+mySonSalary = 2000
+print(f"{mySalary}(This my salary), {myWifeSalary}(This my Wife salary), {mySonSalary}(This my Son salary)")
+print("\n=======================================================\n")
+userName = input("What is your name: ")
+userAge = int(input("What is your age: "))
+userGPA = float(input("What is your GPA: "))
+print(f"The user name is {userName}\nThe user age is {userAge}\nThe user total GPA is {userGPA}")
+=========================================================
+# Examples of string formatting
+# in the code using # noqa: E501 is to ignore some VSCODE extension I use to insure the python PEP8 coding style.
+
+# String Formatting
+country = "Egypt"
+keyNumber = float(0020.0)
+print("my country is {0} and my country's key Number is '{1}'".format(country, keyNumber))  # noqa: E501
+print(f"My country is {country} and my country key number is {keyNumber}")
+# String padding
+print("My country is |{:10}| and my country key number is | {:10} |.".format(country, keyNumber))  # noqa: E501
+print("\n=======================================================\n")
+# The last Line of Code.
+# Right Alignment alignment and left alignment.
+print("This alignment is using less than (<).")
+print("my country is {:<15} and the country key number is {:<15}".format(country, keyNumber))  # noqa: E501
+# left and right alignment.
+print("\n=======================================================\n")
+print("This alignment is using less than (>).")
+print("MY country is {:>15} and the country key number is {:>15}".format(country, keyNumber))  # noqa: E501
+# Middle Alignment.
+print("\n=======================================================\n")
+print("This alignment is using the (^).")
+print("My country is {:^15} and the country key number is {:^15}".format(country, keyNumber))  # noqa: E501
+# Formatting numbers.
+# The Pi fraction and floating pint value form is 22/7 and 3.14285714286
+pi = 3.14285714286  # 11 number after the decimal.
+print("The Value of pi is {:.3f}".format(pi))
+print("\n=======================================================\n")
+# Printing all floating point numbers.
+for i in range(12):
+    precision = i + 1
+    print("Value = {:.{precision}f}".format(pi, precision=precision))
+print("\n=======================================================\n")
+# Another example of formatting number using the string formatting.
+mySalary = 2520.202023439  # 9
+print("The fraction of my salary is {:.1f}".format(mySalary))
+print("The fraction of my salary is {:.2f}".format(mySalary))
+print("The fraction of my salary is {:.3f}".format(mySalary))
+print("The fraction of my salary is {:.4f}".format(mySalary))
+print("The fraction of my salary is {:.5f}".format(mySalary))
+print("The fraction of my salary is {:.6f}".format(mySalary))
+print("The fraction of my salary is {:.7f}".format(mySalary))
+print("The fraction of my salary is {:.8f}".format(mySalary))
+print("The fraction of my salary is {:.9f}".format(mySalary))
+print("\n=======================================================\n")
+# Printing my name again using the f-string
+myFirstName = "Ahmed"
+myMiddleName = "Abdelrahman"
+myLastName = "Elkhateeb"
+# first way of using the f-string.abs
+print(f"(MyFirstName is ){myFirstName}, (MyMiddleName is ){myMiddleName}, (myLastName is){myLastName}.")  # noqa: E501
+print("====================\n====================")
+print("(MyFirstName is ){0}, (MyMiddleName is ){1}, (MyLastName is ){2}".format(myFirstName, myMiddleName, myLastName))  # noqa: E501
+# [] {}
+print("\n=======================================================\n")
+
+
+n: int = 100000000
+n1: int = 100_000_000
+n2: int = 1000000000
+print(n)
+print(n1)
+print(f"{n:_}")  # This using f-string with Underscore.
+print(f"{n:,}")  # This using f-string but with a comma.
+print("{:-}".format(n))  # Another way to separate each triple of zeros with Under score # noqa: E501
+print("\n=======================================================\n")
+# align strings.
+myName = "Ahmed Elkhateeb"
+myAge = 21
+print(f"my Name is {myName:>20} and my age is {myAge:>16} .")  # align at the left. # noqa: E501
+print(f"my Name is {myName:<20} and my age is {myAge:<16} .")  # align at the right. # noqa :E501
+print(f"my Name is {myName:^20} and my age is {myAge:^16} .")  # align at the middle. # noqa :E501
+print("\n=======================================================\n")
+print(f"My Name is {myName:*<20} and my age is {myAge:_<20}.")  # align the variable in the left # noqa: E501
+print(f"My Name is {myName:&>20} and my age is {myAge:#>20}.")  # align the variable to the right # noqa: E501
+print(f"My Name is {myName:$^20} and my age is {myAge:|^20}.")  # align the variable in the middle i 20 space character # noqa: E501
+# Just printing limited numbers after the decimal pint
+mySalary = 20202.2849586568
+# Print the needed number of decimals using f string.
+print(f"my salary is {mySalary:.2f}")
+print(f"my salary is {mySalary + mySalary=}")
+
+
+print("\n=======================================================\n")
+=========================================================
+================(Rock, Paper, Scissor) Game==============
+# Rock - Paper - Scissor Game.
+import random
+import sys
+
+print("\n============================================\n")
+userWins = 0
+userLosses = 0
+userTies = 0
+numOfTries = 0
+
+"""
+The rules for determining the winner are straightforward:
+Rock crushes Scissors.    (Rock wins)
+Scissors cuts Paper.      (Scissors wins)
+Paper covers Rock.        (Paper wins)
+"""
+
+while True:
+    userChoice = input("Enter your choice:  ")
+    cpuChoice = random.choice('RPS')
+    if userChoice == cpuChoice:
+        print("this is Tie")
+        userTies += 1
+        numOfTries += 1
+    elif userChoice == "R":  # S, P
+        if cpuChoice == "P":
+            print(f"The cpu win, cpu choice {cpuChoice}, The user choice {userChoice}")  # noqa = E501
+            userLosses += 1
+            numOfTries += 1
+        else:
+            print(f"You win, you choose {userChoice} and the Cpt choose {cpuChoice} ")  # noqa = E501
+            userWins += 1
+            numOfTries += 1
+            break
+    elif userChoice == "S":
+        if cpuChoice == "R":
+            print(f"The cpu win, cpu choice {cpuChoice}, The user choice {userChoice}")  # noqa = E501
+            userLosses += 1
+            numOfTries += 1
+        else:
+            print(f"You win, you choose {userChoice} and the Cpt choose {cpuChoice} ")  # noqa = E501
+            userWins += 1
+            numOfTries += 1
+            break
+    elif userChoice == "P":
+        if cpuChoice == "S":
+            print(f"The cpu win, cpu choice {cpuChoice}, The user choice {userChoice}")  # noqa = E501
+            userLosses += 1
+            numOfTries += 1
+        else:
+            print(f"You win, you choose {userChoice} and the Cpu choose {cpuChoice} ")  # noqa = E501
+            userWins += 1
+            numOfTries += 1
+            break
+    elif userChoice == "Q":
+        print("Your Quite")
+        continue
+    else:
+        print("Please Enter a valid input.")
+
+
+print(f"number of tires {numOfTries}, Number of losses: {userLosses} ")
+
+print("\n============================================\n")
+=============================================================================
+# Rock Paper Scissor Game.
+# Using 1, 2 ,3 stands for Rock Paper Scissor.
+import random
+
+numOfTries = 0
+numOfWins = 0
+numOfTies = 0
+numOfLosses = 0
+
+
+"""
+Rock Smash Scissor
+Scissor cuts Paper
+Paper hides Rock
+"""
+
+while True:
+
+    userChoice = (input("Enter Your Choice:\n'R'-Rock, 'P'-Paper, 'S'-Scissor\nOr 'Q' to quit\nNote (all in capital) your choice is: ")).upper()  # noqa :e501
+    computerChoice = random.randint(1, 3)
+    if userChoice == "Q":
+        print("\nYou Quit.\n")
+        break
+
+    # 1 for R
+    # 2 for P
+    # 3 for S
+    if userChoice == "R":
+        if computerChoice == 1:
+            print("This is a tie.\n")
+            numOfTries += 1
+            numOfTies += 1
+        elif computerChoice == 2:
+            print("You Lose.\n")
+            numOfTries += 1
+            numOfLosses += 1
+        elif computerChoice == 3:
+            print("You Win.\n")
+            numOfTries += 1
+            numOfWins += 1
+    # If the user input "p"
+    elif userChoice == "P":
+        if computerChoice == 2:
+            print("This is a tie.\n")
+            numOfTries += 1
+            numOfTies += 1
+        elif computerChoice == 3:
+            print("You Lose.\n")
+            numOfTries += 1
+            numOfLosses += 1
+        elif computerChoice == 1:
+            print("You Win.\n")
+            numOfTries += 1
+            numOfWins += 1
+    # If the user input "S"
+    elif userChoice == "S":
+        if computerChoice == 3:
+            print("This is a tie.\n")
+            numOfTries += 1
+            numOfTies += 1
+        elif computerChoice == 1:
+            print("You Lose.\n")
+            numOfTries += 1
+            numOfLosses += 1
+        elif computerChoice == 2:
+            print("You Win.\n")
+            numOfTries += 1
+            numOfWins += 1
+    else:
+        print("Enter a valid Character!")
+# String formatting user f-string.
+print(f"Number of tries = {numOfTries}\nNumber of wins = {numOfWins}\nNumber of ties = {numOfTies}\nNumber Of losses = {numOfLosses}")  # noqa: E501
+=========================================================
+import sys
+import random
+print('ROCK, PAPER, SCISSORS')
+# These variables keep track of the number of wins, losses, and ties.
+wins = 0
+losses = 0
+ties = 0
+while True:  # The main game loop.
+    print('%s Wins, %s Losses, %s Ties' % (wins, losses, ties))
+    while True:  # The player input loop.
+        print('Enter your move: (r)ock (p)aper (s)cissors or (q)uit')
+        playerMove = input()
+        if playerMove == 'q':
+            sys.exit()  # Quit the program.
+        if playerMove == 'r' or playerMove == 'p' or playerMove == 's':
+            break  # Break out of the player input loop.
+            print('Type one of r, p, s, or q.')
+        # Display what the player chose:
+        if playerMove == 'r':
+            print('ROCK versus...')
+        elif playerMove == 'p':
+            print('PAPER versus...')
+        elif playerMove == 's':
+            print('SCISSORS versus...')
+    # Display what the computer chose:
+        randomNumber = random.randint(1, 3)
+    if randomNumber == 1:
+        computerMove = 'r'
+        print('ROCK')
+    elif randomNumber == 2:
+        computerMove = 'p'
+        print('PAPER')
+    elif randomNumber == 3:
+        computerMove = 's'
+        print('SCISSORS')
+    # Display and record the win/loss/tie:
+    if playerMove == computerMove:
+        print('It is a tie!')
+        ties = ties + 1
+    elif playerMove == 'r' and computerMove == 's':
+        print('You win!')
+        wins = wins + 1
+    elif playerMove == 'p' and computerMove == 'r':
+        print('You win!')
+        wins = wins + 1
+    elif playerMove == 's' and computerMove == 'p':
+        print('You win!')
+        wins = wins + 1
+    elif playerMove == 'r' and computerMove == 'p':
+        print('You lose!')
+        losses = losses + 1
+    elif playerMove == 'p' and computerMove == 's':
+        print('You lose!')
+        losses = losses + 1
+    elif playerMove == 's' and computerMove == 'r':
+        print('You lose!')
+        losses = losses + 1
+=========================================================
+"""
+Write code that prints "Hello"
+if 1 is stored in spam.
+
+prints "Howdy"
+if 2 is stored in spam.
+
+and prints "Greetings!"
+if anything else is stored in spam.
+"""
+spam1: int = 1
+spam = int(input("Enter the spam value."))
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+=========================================================
+# The Other Program.
+"""
+Write a short program that
+prints the numbers 1 to 10
+using a for loop.
+
+Then write an equivalent program that
+prints the numbers 1 to 10
+using a while loop."""
+# The first program.abs
+for i in range(1, 11):
+    print(i)
+print("\n====================================================\n")
+i1 = 0
+while True:
+    i1 += 1
+    print(i1)
+    if i1 == 10:
+        break
+print("\n====================================================\n")
+# Another wy.
+i2 = 1
+while i2 <= 10:
+    print(i2)
+    i2 += 1
+=========================================================
+"""
+If you had a function named bacon() inside a module named spam.
+how would you call it after importing spam?
+"""
+# abs() & round()
+pi: float = 3.14159265359
+for i in range(-5, 10, 1):
+    absValue = float(input("Enter the number: "))
+    print(f"({i}) Number = {abs(absValue)}")
+    print(f"({i}) Number = {round(absValue, i)}")
+=========================================================
+import random
+
+
+print("\n====================================================\n")
+
+
+# a print function without any parameters.
+def hello():
+    print("Howdy!")
+    print("Howdy!!!")
+    print("Hello there.")
+
+
+print("\n====================================================\n")
+hello()  # This the only the Function's name.
+print("\n====================================================\n")
+hello()  # This the only the Function's name.
+print("\n====================================================\n")
+hello()  # This the only the Function's name.
+print("\n====================================================\n")
+hello()  # This the only the Function's name.
+
+print("\n====================================================\n")
+# Function to print my name.
+
+
+def myName():
+    print("My name is \"Ahmed Elkhateeb\"\nI'm 21 years old\nI'm a data Scientist.")  # noqa: E501
+
+
+print("\n====================================================\n")
+myName()
+print("\n====================================================\n")
+
+
+# This is print function without any parameters.
+def myId():
+    print("I'am Ahmed Elkhateeb\nI am a data Scientist\nMy GPA is 3.91\nI Work at OpenAi.")  # noqa: E501
+
+
+print("\n====================================================\n")
+# Invoking the myId function to print certain data.
+myId()
+
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# Defining a function with parameters.
+def userFullName(firstName, middleName, lastName):
+    print(f"my first name is: {firstName}\nMy middle name is: {middleName}\nMy last name is: {lastName}")  # noqa: E501
+
+
+# invoking the MyFullName function to print the name of three users.
+# First user.
+userFullName("Ahmed", "Abdelrahman", "Elkhateeb")
+print("\n====================================================\n")
+# Second user.
+userFullName("Hamed", "Hammad", "Hammoda")
+print("\n====================================================\n")
+# Third user.
+userFullName("Hamdi", "Hady", "Hany")
+print("\n=====================================================================================================\n")  # noqa: E501
+# Another Function With multiple parameters.
+
+
+# A function with a return statement.
+def getAnswer(answerNumber):
+    if answerNumber == 1:
+        return 'It is certain'
+    elif answerNumber == 2:
+        return 'It is decidedly so'
+    elif answerNumber == 3:
+        return 'Yes'
+    elif answerNumber == 4:
+        return 'Reply hazy try again'
+    elif answerNumber == 5:
+        return 'Ask again later'
+    elif answerNumber == 6:
+        return 'Concentrate and ask again'
+    elif answerNumber == 7:
+        return 'My reply is no'
+    elif answerNumber == 8:
+        return 'Outlook not so good'
+    elif answerNumber == 9:
+        return 'Very doubtful'
+
+
+print("\n====================================================\n")
+r = random.randint(1, 9)
+fortune = getAnswer(r)
+print(fortune)
+
+
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# Parameters and arguments.
+# Greeting function and printing the using .format text.
+def greetingPhrase(name):
+    print(f"Hi, There.\nWelcome {name}")
+
+
+print("\n====================================================\n")
+# Invoking the function.
+# Num1
+greetingPhrase("Ahmed Elkhateeb")
+print("\n====================================================\n")
+# Num2
+userName2 = "Hady Hany"
+greetingPhrase(userName2)
+print("\n====================================================\n")
+# Num3
+greetingPhrase("Hany Hamdy")
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# The return keyword in functions.
+def goodBadPeople(name):
+    if name == "Hany":
+        print("You smell like expired garlic!")
+        return
+    otherName = f"Your name ({name}) is so unique."
+    return print(otherName)
+
+
+# for loop to invoke the function four times.
+# Num1
+# Invoking the function goodBadPeople
+goodBadPeople("Hany")
+print("\n====================================================\n")
+# Num2
+goodBadPeople("Ahmed Elkhateeb")
+print("\n====================================================\n")
+# Num3
+userName3 = "Hamza Hazem"
+goodBadPeople(userName3)
+
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# Default parameters in a function.
+def sayHallo(greeting="Hallo"):
+    print(f"You greet saying ||{greeting}||.")
+
+
+sayHallo("Hi")
+print("\n====================================================\n")
+sayHallo()
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# A Function to calculate two values and return the sumption.
+def sumFunc(firstNum, secondNum):
+    totalSum = firstNum + secondNum
+    return totalSum
+
+
+# Invoking the function sumFunc
+# Num1
+numA = 20
+numB = 40
+print(sumFunc(numA, numB))
+# Num2
+print(sumFunc(10, 90))
+# Num3
+numA2 = 100
+print(sumFunc(numA2, 200))
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# Function number 2.
+# Checking if the number is even. زوجي
+def numberEvenChecker(number):
+    if (number % 2 == 0):
+        return True  # print("Number is even.")
+    else:
+        return False  # print("Number is odd.")
+
+
+# Ex_Function number 1
+print(numberEvenChecker(20))
+
+print(numberEvenChecker(21))
+
+print(numberEvenChecker(25))
+
+print(numberEvenChecker(22))
+
+print(numberEvenChecker(30))
+
+print(numberEvenChecker(40))
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# Finding the maximum of two numbers.
+def twoNumbersMaxValue(x: int, y: int):
+    if x > y:
+        return print(f"{x} is greater than {y}")
+    elif x == y:
+        return print(f"{x} is equal to {y}")
+    else:
+        return print(f"{y} is greater than {x}")
+
+
+for i in range(4):
+    firstNumber = 20  # int(input("Enter the first number:  "))
+    secondNumber = 40  # int(input("Enter the second number:  "))
+    twoNumbersMaxValue(firstNumber, secondNumber)
+    print("==================================================")
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+# Calculating the factorial of number.
+def factorialNumber(numFac):
+    result: int = 1
+    for i in range(numFac):
+        # Creating a container.
+        result *= 1
+        return result
+
+
+# invoking the factorial number.
+print(factorialNumber(10))
+
+
+print("\n=====================================================================================================\n")  # noqa: E501
+
+
+print("\n====================================================\n")
+=========================================================
+# None Value Data type in python.
+# import
+# How to open the interactive shell. in python.
+
+
+print("\n============================================\n")
+
+
+myVariable = None
+myVariableA = 0
+
+
+print(type(myVariable))
+print(type(myVariable), myVariable)
+print(type(myVariableA), myVariableA)
+print("\n============================================\n")
+print(type("My Name is Ahmed Elkhateeb"))
+print(type(1.00020202))
+print(type(110100000000003838383383833838383830303030300939393398484848303030303833838383000011101010101))  # noqa: E501
+print(type(None))
+print(type([10, 20, 30]))
+print("\n============================================\n")
+# Declaring a variable and then assign the value of it.
+myVar: int = None
+myVar = 10
+print(f"The value of my var Variable: {myVar}")
+print("\n============================================\n")
+myVariableC = None
+print(myVariableC)
+myVariableC = 2020202020202020
+print(myVariableC)
+
+
+print("\n============================================\n")
+=========================================================
+# The call-Stack
+# import
+def a():
+    print("a() Starts")
+    b()
+    d()
+    print("a() returns")
+
+
+# Defining the Function b.
+def b():
+    print("b() Starts.")
+    c()
+    print("b() Returns.")
+
+
+# Defining a function c.
+def c():
+    print("c() Starts.")
+    print("c() Returns.")
+
+
+# Defining the function d.
+def d():
+    print("d() Starts.")
+    print("d() Returns.")
+
+
+# Invoking the a() function.
+a()
+print("\n============================================\n")
+
+
+# A basic Function with no parameter.
+def planFunction():
+    print("Hello World")
+
+
+# Invoking the function.
+planFunction()
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A function with one parameter.
+def myAge(age: int):
+    return print(f"My age is {age} years old.")
+
+
+# Invoking the function.
+myAge(21)
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A Function with two parameters.
+def fullName(firstName, lastName):
+    fullName = firstName + " " + lastName
+    return fullName
+
+
+# Invoking the function fullName.
+print(fullName("Ahmed", "Elkhateeb"))
+print("\n============================================\n")
+# Invoking num2 to the function fullName.
+firstNameA = "Hany"
+lastNameA = "Mehana"
+print(fullName(firstNameA, lastNameA))
+print("\n============================================\n")
+# Invoking the function with a defined value and assigned value.
+firstNameB = "Hamza"
+print(fullName(firstNameB, "Hazem"))
+print("\n======================================================================================\n")  # noqa: E501
+"""
+
+# A Function with a default parameter.
+def userFirstName(userName="Client"):
+    return print(f"Hallo, {userName}")
+
+
+# Invoking the function.
+userFirstName("AhmedElkhateeb")
+# Invoking the function number2.
+userFirstName()
+# Invoking the function number3.
+userFirstNameA = "Hady Hamada"
+userFirstName(userFirstNameA)
+# Invoking the function and pass the value using the user input.
+userFirstNameB = input("Enter the user's first name: ")
+userFirstName(userFirstNameB)
+"""
+print("\n======================================================================================\n")  # noqa: E501
+
+
+"""
+# A Function Calls another function.
+def myFirstName():
+    firstNameC = input("Enter your first Name: ")
+    return firstNameC
+
+
+def mySecondName():
+    secondNameC = input("Enter your second Name: ")
+    return secondNameC
+
+
+def myFullName():
+    myFullName = "myFull name is: " + myFirstName() + " " + mySecondName()  # This is a string concatenation. # noqa E:501
+    return print(f"\n\n{myFullName}")
+
+
+# Invoking the myFullName() Function.
+myFullName()
+
+
+"""
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A Greeting function calls another function to say Hallo "user's name".
+def greeting():
+    return "Hallo"
+#  Defining another function to insert the user's name.
+
+
+def userNameA(nameA):
+    return f"{greeting()}, \"{nameA}\""
+
+
+# invoking the function.
+print(userNameA("Ahmed Elkhateeb"))
+userNameAA = "Hany Hanady"
+print(userNameA(userNameAA))
+print(userNameA("Maha Mahdy"))
+print(userNameA("Karam Kareem"))
+userNameAAA = "Hady Mamdy"
+print(userNameA(userNameAAA))
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A function with multiple return type.
+def arithmeticOperator(numA, numB):
+    return (numA + numB), (numA - numB), (numA * numB), (numA / numB)
+
+
+# Example number1.
+print(arithmeticOperator(20, 10))
+# Example number2.
+numAA: int = 20
+numBB: int = 10
+print(arithmeticOperator(numAA, numBB))
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A factorial function.
+def factorialFun(factorialNumber):
+    result: int = 1
+    # declaring a for loop.
+    for i in range(1, factorialNumber + 1):
+        result += i
+    return result
+
+
+# Invoking the factorialFun()
+print(f"The total Value = {factorialFun(10)}")
+# Invoking the factorialFun() num2
+print(f"The total Value = {factorialFun(20)}")
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A function with keyword arguments.
+# My Name, my age, My GPA.
+def fullId(myNameA, myAgeA, myGPA):
+    return f"my name is {myNameA}, my Age is {myAgeA} and myGPA is {myGPA}"
+
+
+# Invoking the function Num1
+print(fullId("AhmedElkhateeb", 21, 3.9))
+print(fullId("Handy Hanady", 22, 3.8))
+print(fullId("Hamza Hazem", 21, 3.4))
+
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# A function
+def anyFunction(*args):
+    for i in args:
+        print(i)
+
+
+anyFunction(1, 2, 3, 4)
+print("\n======================================================================================\n")  # noqa: E501
+
+
+# An arbitrary arguments to sum the total of bunch of numbers.
+def addFunction(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
+
+
+# Invoking the addFunction.
+print(f"Total sumption = {addFunction(10, 20, 30, 40)}")
+
+
+# A function with kwargs.
+def myFunctionA():
+    print()
+
+
+# A function
+# Arbitrary augments.
+
+
+print("\n======================================================================================\n")  # noqa: E501
+
+
+print("\n============================================\n")
+
+
+print("\n============================================\n")\
+
+
+print("\n======================================================================================\n")  # noqa: E501
+=========================================================
+
+# Defining a function called spam
+def myFunction():
+    eggs = 5351
+
+
+# Define a function with a local scope
+def myFunctionA():
+    egssA = 6633
+
+
+myFunction()
+print(eggs)
+=========================================================
+
+# The following example clarify the local variables and global variables.
+# Another Function.
+def spam():
+    eggs = 'spam local'
+    print(eggs)  # prints 'spam local'
+
+
+def bacon():
+    eggs = 'bacon local'
+    print(eggs)  # prints 'bacon local'
+    spam()
+    print(eggs)  # prints 'bacon local'
+
+
+eggs = 'global'
+bacon()
+print(eggs)
+
+
+=========================================================
+# A example for try and except in a division function.
+def divisionResult(dividedBy):
+    try:
+        return 100 / dividedBy
+    except ZeroDivisionError:
+        print("You can't divide by Zero")
+
+
+i = 0
+while i < 5:
+    dividedNum = int(input("Enter the divided number: "))
+    print(divisionResult(dividedNum))
+    i += 1
+# A example for try and except in a division function.
+=========================================================
+
+# A function to add two numbers plus error handling.
+
+def addNumbers(firstNum, secondNum):
+    try:
+        firstNum = int(input("Enter the first Number: "))
+        secondNum = int(input("Enter the second Number: "))
+        totalNum = firstNum + secondNum
+        return totalNum
+    except ValueError:
+        print("Please enter only numeric values into the first added number and the second added number.")  # noqa: E501
+
+
+# Invoking the add Numbers function.
+print(addNumbers(10, 20))
+print(addNumbers(50, "abcd"))
+print(addNumbers(100, 20.202020))
+=========================================================
+
+# A function to concatenate to string values.
+def myFullName(firstName: str, lastName: str):
+    try:
+        fullName: str = firstName + lastName
+        return fullName
+    except TypeError:
+        return "Enter only string values."
+
+
+print(myFullName("Ahmed", "Elkhateeb"))
+print(myFullName("Ahmed", 2020))
+
+=========================================================
+# Another function to add two numbers.
+def multiplyTwoNumbers(firstNumA: int, secondNumA: int):
+    try:
+        totalMultiplication: int = firstNumA + secondNumA
+        return totalMultiplication
+    except TypeError:
+        return "Please insert a right types in both the first number and second number."  # noqa :E501
+
+
+print(f"Total Multiplication = {multiplyTwoNumbers(10, 20)}\n")
+print("\n**************************\n")  # noqa: E501
+print(multiplyTwoNumbers("aa", 20))
+print("\n**************************\n")  # noqa: E501
+print(multiplyTwoNumbers(100, 200))
+print("********************************************************************************")  # noqa: E501
+
+
+# Another Function to divide numbers by 100
+def divideNumbers(theDividend: int):
+    try:
+        divisorNum = 100
+        totalDivision = int(theDividend / divisorNum)
+        return f"Total division value = {totalDivision}"
+    except ZeroDivisionError:
+        return "Error!, NA divide by Zero."
+    except TypeError:
+        return "Please!, Enter only integral numbers"
+
+
+# Invoking the function divideNumbers.
+print(divideNumbers(20))
+print(divideNumbers("aaa"))
+print(divideNumbers(0))
+=========================================================
+
+
+# A function to add two numbers.
+def addTwoNum(firstNum, secondNum):
+    try:
+        if not isinstance(firstNum, int) or not isinstance(secondNum, int):
+            raise TypeError("Please Enter only integers.")
+        # Declare a variable to add two numbers.
+        totalNumbers = firstNum + secondNum
+        # returning the two numbers addition.
+        return totalNumbers
+    # defining multiple built in special exceptions.
+    except ValueError:
+        return "Enter only numbers."
+    except TypeError:
+        return "Please enter only integers."
+    except OverflowError:
+        return "The value number is too large."
+    except ArithmeticError:
+        return "An arithmetic error happened during the execution."
+    except Exception as e:
+        return f"An unexpected error occurred {e}"
+
+
+# Invoking the function addTwoNum
+# print(addTwoNum(10, 20))
+print(addTwoNum(10, "Ahmed"))
+print(addTwoNum(20.020234201, 5000))
+print("\n********************************************************************************\n\n")  # noqa: E501
+
+
+# Another function to add two numbers.
+def addTwoNumbers():
+    try:
+        # User input.
+        firstNumber = int(input("Enter the First addition element: "))
+        secondNumber = int(input("Enter the second addition element: "))
+        totalAddition = firstNumber + secondNumber
+        return f"Total addition = {totalAddition}"
+    except ValueError:
+        return "Please!, Enter only Integer numbers."
+    except TypeError:
+        return "please!, Check The elements type."
+    except OverflowError:
+        return "Please!, Check the Value number, It is so Huge and can lead to memory Leak."  # noqa: E501
+    except ArithmeticError:
+        return "Please, An arithmetic Error happened during the execution."
+    except Exception as e:
+        return f"An unexpected error occurred {e}"
+
+
+# Invoke the function addTwoNumbers
+print(addTwoNumbers())
+print("\n************************************\n")  # noqa: E501
+print(addTwoNumbers())
+print("\n************************************\n")  # noqa: E501
+print(addTwoNumbers())
+print("********************************************************************************")  # noqa: E501
+=========================================================
+# Another function to Greeting a Person (with All Relevant Exceptions)
+def greetingUser(userName):
+    try:
+        userName = userName(str)
+        return f"Welcome {userName}."
+    except Exception as e:
+        return f"check the output again{e}"
+    except TypeError:
+        return "Please enter only strings."
+    except ValueError:
+        return "Please check the user's name"
+
+
+print(greetingUser("Ahmed"))
+print(greetingUser(2020))
+print(greetingUser(20202.20202373473))
+print(greetingUser({{}}))
+print("********************************************************************************")  # noqa: E501
+=========================================================
+# lets practice functions. and try to use try and except block.
+from typing import Optional
+from typing import Union
+
+print("********************************************************************************")  # noqa: E501
+
+
+print("\n**************************\n")  # noqa: E501
+num = "Ahmed Elkhateeb"
+print(f"the num_0 is: {num}")
+num = 2020
+print(f"The num_A is: {num}")
+print("\n********************************************************************************\n")  # noqa: E501
+
+
+# Defining a function to print a declared variable with statically typed.
+def myFullName(firstName: str, lastName: str) -> str:
+    if not isinstance(firstName, str) or not isinstance(lastName, str):
+        raise TypeError("Both variables must be string type.")
+    fullName = firstName + lastName  # This is string concatenation.
+    return fullName
+
+
+# invoking the function.
+print(myFullName("Ahmed", "Elkhateeb"))
+print(myFullName(20, 2020))
+print(myFullName("Ahmed", 2020))
+print("\n********************************************************************************\n")  # noqa: E501
+
+
+# A
+
+
+# A
+
+
+# A
+
+
+# A
+
+
+# A
+
+
+# A
+
+
+# A
+
+
+# A
+
+
+print("\n************************************\n")  # noqa: E501
+
+
+print("********************************************************************************")  # noqa: E501
+=========================================================
+myNum: int = 2020
+myName: str = 2020
+print(myNum)
+print(myName)
+=========================================================
+
+
+# A function to add two numbers Plus using try the except block.
+def addTwoNum(firstNum: int, secondNum: int) -> int:
+    try:
+        print("Hello World.")
+        totalNum: int = firstNum + secondNum
+        return totalNum
+    except Exception as e:
+        return "An Error occurred type: {e}"
+    except ValueError:
+        return "Error!: One or both inputs are invalid."
+    except TypeError:
+        return "Error!: Please Enter only integers."
+    except OverflowError:
+        return "Error!, Value number is too big."
+    except ZeroDivisionError:
+        return "Error!, You couldn't divide by zero"
+    except ArithmeticError:
+        return "Error!, An arithmetic error occurred."
+
+
+# Invoking the function AddTwoNum
+print(addTwoNum("Ahmed", 20))
+print("\n***********************************\n")
+
+print(addTwoNum(20, 20))
+print("\n***********************************\n")
+
+print(addTwoNum("Ahmed", "Ahmed"))
+print("\n***********************************\n")
+
+print(addTwoNum(20.2202, 2020.2020202))
+print("\n*************************************************************************************\n")  # noqa: E501
+=========================================================
+
+
+# A function to add make a string concatenation
+def myFullName(firstName: str, lastName: str) -> str:
+    try:
+        fullName: str = firstName + " " + lastName  # This called String Concatenation.  # noqa: E501
+        return fullName
+    except ValueError:
+        return "Error!, Check the type of one variable or both."
+    except TypeError:
+        return "Error!, Variables must me only string"
+    except NameError:
+        return "Error!, A variables or both its name hasn't defined yet."
+
+
+# Invoke the function myFullName.
+print(myFullName("Ahmed", "Elkhateeb"))
+print("\n***********************************\n")  # This called a short separator.  # noqa: E501
+print(myFullName("Mohamed", "Hassan"))
+print("\n***********************************\n")  # This called a short separator.  # noqa: E501
+print(myFullName(2202202.20202, "Hassan"))
+print("\n***********************************\n")  # This called a short separator.  # noqa: E501
+print(myFullName("Hamed", "Hammad"))
+print("\n***********************************\n")  # This called a short separator.  # noqa: E501
+print(myFullName(20, 202020.2020))
+print("\n******************************************************************************************\n")  # noqa: E501
+=========================================================
+
+
+# Another function to define the full name of a user with error handling. try and except.  # noqa: E501
+def myFullName(firstName: str, secondName: str) -> str:
+    try:
+        fullName: str = firstName + " " + secondName
+        return fullName
+    # First exception.
+    # ValueError, TypeError, ZeroDivisionError, OverflowError.
+    except ValueError:
+        return "Error!, Make sure the both variables are strings."
+    # Except number 2.
+    except TypeError:
+        return "Error!, One variable or both variables are not the same data type."  # noqa: E501
+    # ZeroDivisionError.
+    except ZeroDivisionError:
+        return "Error!, It's not available to divide by zero."
+    except OverflowError:
+        return "Error!, The value is to big"
+
+
+# Invoke the function fullName.
+print(myFullName("Ahmed", "Elkhateeb"))
+print(myFullName("Ahmed", 20202))
+print(myFullName(20, 22020))
+# print(myFullName(@@, "ghghg"))
+=========================================================
+def totalYearsOfExperience(firstExperience: int, secondExperience: int, thirdExperience) -> int:  # noqa: E501
+    try:
+        totalExperience: int = firstExperience + secondExperience + thirdExperience  # noqa: E501
+        return totalExperience
+    # First Exception.
+    except ValueError:
+        return "Error!, Make sure all variables the same type."
+    # Second Exception.
+    except TypeError:
+        return "Error!, One variable or more are not the integer."
+    # Third Exception.
+    except OverflowError:
+        return "Error!, Number is so big for the memory to handel."
+    # Fourth Exception.
+    except ArithmeticError:
+        return "Error!, An arithmetic error occurred."
+
+
+# Invoking the function totalYearsOfExperience.
+print(f"Total Years of Experience == {totalYearsOfExperience(3, 4, 5)}")
+print(totalYearsOfExperience("Ahmed", 202, "Hamed"))  # noqa: E501
+print(f"Total years of Experience == {totalYearsOfExperience(9999999999999999999999999999999999999999999999999999999999333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333388888888888888888888888888888888888888888888888888888888888888888888888333333333333333333333333333333333333333333333333333333999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999000000000000000000000000000000000000001010101010110101010101, 202022030434394347347347347347347343743434347347347, 202000000000000000000000000000000000000000000000000000000000000000000000000000000074747437437437437473473473743747347347374374734737437437437434734737437437)}")  # noqa E: 501
+=========================================================
+
+
+# A function to greet someone with all relative exceptions for error handling.
+def greatingPerson(personName: str) -> str:
+    try:
+        if not isinstance(personName, str):
+            raise TypeError("Error, one or more variables are not strings.")
+        return f"Hello {personName}"
+    except ValueError:
+        return "Error!, Make sure all variables are the same type."
+    except TypeError as te:
+        return str(te)
+
+
+# Invoking the function greetingPerson.
+print(greatingPerson("Ahmed Elkhateeb"))
+print(greatingPerson("Hamed Hammad"))
+print(greatingPerson(2020220202020202202020202202020))
+=========================================================
+""" import time
+import sys  # noqa: E501
+indent = 0  # How many spaces to indent.
+indentIncreasing = True  # Whether the indentation is increasing or not.
+try:
+    while True:  # The main program loop.
+        print(' ' * indent, end='')
+        print('********')
+        time.sleep(0.1)  # Pause for 1/10 of a second.
+
+        if indentIncreasing:
+            # Increase the number of spaces:
+            indent = indent + 1
+        if indent == 20:
+            # Change direction:
+            indentIncreasing = False
+        else:
+            # Decrease the number of spaces:
+            indent = indent - 1
+            if indent == 0:
+                # Change direction:
+                indentIncreasing = True
+except KeyboardInterrupt:
+    sys.exit()
+ """
+=========================================================
+
+
+
+
+
+
+
+
+
+
+
+=========================================================
+=========================================================
+=========================================================
+=========================================================
+******************* Separator *****************
+print("\n***********************************\n")  # This called a short separator.  # noqa: E501
+print("\n******************************************************************************************\n")  # noqa: E501
