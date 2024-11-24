@@ -8,7 +8,7 @@ def myNumber(userNumber):
     if userNumber <= 0:
         raise ValueError("input must be a positive integer.")
     while userNumber != 1:
-        # userNumber = int(input("Enter the number: "))
+        # userNumber = int(input("Enter the number: "))a
         if userNumber % 2 == 1:
             print(userNumber)
             userNumber = 3 * userNumber + 1
